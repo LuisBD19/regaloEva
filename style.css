@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #fafafa;
+  color: #444;
+  text-align: center;
+}
+
+/* Barra progreso */
+#progress-container {
+  width: 100%;
+  height: 8px;
+  background: #eee;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #ff5c8a;
+  transition: width 0.4s ease;
+}
+
+/* App */
+#app {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  animation: fadeIn 0.4s ease;
+}
+
+/* Tipo de reto */
+.tipo {
+  font-size: 14px;
+  color: #ff5c8a;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Texto */
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Imagen */
+img {
+  max-width: 100%;
+  border-radius: 14px;
+  margin: 15px 0;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Botón */
+button {
+  margin-top: 20px;
+  padding: 14px 22px;
+  font-size: 16px;
+  background: #ff5c8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Error */
+.error {
+  color: #ff5c8a;
+  margin-top: 10px;
+  min-height: 20px;
+}
+
+/* Video */
+video {
+  width: 100%;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease forwards;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.header {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #ff5c8a;
+  font-weight: 600;
+}
+
