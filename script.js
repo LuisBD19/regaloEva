@@ -200,7 +200,7 @@ function renderWelcome() {
   card.className = "card";
 
   const h1 = document.createElement("h1");
-  h1.textContent = "Bienvenida a tu regalo, Guapisimaa💖";
+  h1.textContent = "Bienvenida a tu regalo, guapisimaa💖";
 
   const p = document.createElement("p");
   p.textContent = "Feliceees 25 🎂 Que los cumplaaas feliis...";
