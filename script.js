@@ -199,14 +199,6 @@ function renderWelcome() {
   const card = document.createElement("div");
   card.className = "card";
 
-  if (reto.header) {
-  const h2 = document.createElement("h2");
-  h2.className = "header";
-  h2.textContent = reto.header;
-  card.appendChild(h2);
-  }
-
-
   const h1 = document.createElement("h1");
   h1.textContent = "Bienvenida a tu regalo, Guapisimaa💖";
 
@@ -234,6 +226,13 @@ function renderReto() {
 
   const card = document.createElement("div");
   card.className = "card";
+
+  if (reto.header) {
+  const h2 = document.createElement("h2");
+  h2.className = "header";
+  h2.textContent = reto.header;
+  card.appendChild(h2);
+  }
 
   if (tipoLabels[reto.tipo]) {
     const label = document.createElement("div");
