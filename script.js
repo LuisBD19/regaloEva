@@ -188,7 +188,7 @@ const retos = [
   {
     tipo: "final",
     header:"Regalo final🎁🎁",
-    texto: "Espero que te hayan gustado los regalos y que te lo hayas pasado genial con todas estas pruebas 🥰 \n Ojalá hoy tengas un día increíble y ojalá seguir celebrando contigo muchísimos más cumpleaños 🎂✨ \n De verdad, eres la mejor del mundo y me haces inmensamente feliz. \n Me encantas en todos los sentidos, estoy súper enamorado de ti y te prometo que eres el amor de mi vida ❤️ \n Te amooooo 💕💫"
+    texto: "Espero que te hayan encantado los regalos y que te lo hayas pasado genial con todas estas pruebas🥰. \n Ojalá hoy tengas un día increíble y ojalá seguir celebrando contigo muchísimos más cumpleaños 🎂✨. \n Te juro que eres la mejor del mundo y me haces infinitamente feliz🥰​😊. \n Me encantas en todos los sentidos, estoy súper enamorado de ti y te prometo que eres el amor de mi vida ❤️. \n Te amooooo 💕💫"
   }
 ];
 
